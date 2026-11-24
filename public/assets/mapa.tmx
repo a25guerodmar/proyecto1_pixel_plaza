@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="20" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="13">
+ <tileset firstgid="1" name="tileset_tiled" tilewidth="32" tileheight="32" tilecount="1064" columns="8">
+  <image source="tileset.png" width="256" height="4256"/>
+  <tile id="208">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="209">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="210">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="211">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="212">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="213">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="214">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="215">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="216">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="217">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="218">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="219">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="220">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="221">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="222">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="223">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Terra" width="20" height="15">
+  <data encoding="csv">
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,717,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,820,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6
+</data>
+ </layer>
+ <layer id="5" name="Mobles" width="20" height="15">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,15,16,2684354617,0,0,0,0,0,0,0,0,0,0,0,0,57,47,48,0,
+0,23,24,52,0,0,0,0,0,0,0,0,0,0,0,0,6,24,0,0,
+0,2684354617,2684354617,52,0,717,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,52,0,0,0,0,0,0,0,15,16,51,0,0,0,0,0,0,
+0,0,0,52,0,0,0,0,0,0,0,23,24,0,0,0,0,0,0,0,
+0,0,0,52,0,0,0,0,0,0,0,0,52,0,68,68,0,0,0,0,
+0,0,0,52,0,0,0,0,0,52,0,0,52,0,0,0,0,51,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,52,0,0,0,0,51,0,0,
+0,0,0,0,0,0,0,15,16,0,0,0,52,0,0,0,0,0,0,0,
+0,0,52,0,0,0,0,23,24,0,0,0,52,0,0,0,0,0,0,0,
+0,0,52,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,52,52,0,0,0,0,52,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Parets" width="20" height="15">
+  <data encoding="csv">
+211,217,217,217,217,217,217,217,217,217,217,217,217,217,217,217,217,217,217,212,
+209,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,209,
+209,0,0,6,211,217,217,212,6,0,0,0,0,0,0,0,0,6,0,209,
+209,0,0,6,209,0,6,209,6,0,0,0,0,0,0,0,0,6,0,209,
+209,0,0,6,209,0,6,209,6,0,0,0,0,0,0,0,0,6,0,209,
+209,0,0,6,209,0,6,219,6,0,0,0,0,211,217,217,212,6,0,209,
+209,0,0,6,209,0,0,0,0,0,0,0,0,209,0,0,209,0,0,209,
+209,0,0,6,219,217,217,217,0,0,0,0,0,209,0,0,209,0,0,209,
+209,0,0,0,0,0,0,0,0,0,0,0,0,209,0,0,209,0,0,209,
+209,0,0,211,217,217,212,0,0,0,0,0,0,209,0,0,219,0,0,209,
+209,0,0,209,0,0,209,0,0,0,0,0,0,209,0,0,0,0,0,209,
+209,0,0,209,0,0,209,0,0,0,0,0,0,219,217,217,217,0,0,209,
+209,0,0,209,0,0,219,217,6,0,0,0,0,0,0,0,0,0,0,209,
+209,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,209,
+219,217,217,217,217,217,217,217,217,217,217,217,217,217,217,217,217,217,217,220
+</data>
+ </layer>
+ <objectgroup id="4" name="Objectes">
+  <object id="1" x="44.1103" y="430.409">
+   <properties>
+    <property name="tipus" value="spawn"/>
+   </properties>
+  </object>
+  <object id="6" x="151.044" y="93.5673" width="81.5372" height="135.004">
+   <properties>
+    <property name="aforament" type="int" value="6"/>
+    <property name="nomSala" value="Sala de Reunions"/>
+    <property name="tipus" value="zona"/>
+   </properties>
+  </object>
+  <object id="9" x="156.391" y="97.5773" width="72.1805" height="28.0702">
+   <properties>
+    <property name="tipus" value="monitor"/>
+    <property name="titol" value="Pantalla Codi"/>
+   </properties>
+  </object>
+  <object id="11" x="440" y="189.333" width="82.6667" height="168">
+   <properties>
+    <property name="aforament" type="int" value="4"/>
+    <property name="nomSala" value="Zona Cafè"/>
+    <property name="tipus" value="zona"/>
+   </properties>
+  </object>
+  <object id="12" x="444" y="193.333" width="73.3333" height="30.6667">
+   <properties>
+    <property name="tipus" value="monitor"/>
+    <property name="titol" value="Pantalla Info"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
