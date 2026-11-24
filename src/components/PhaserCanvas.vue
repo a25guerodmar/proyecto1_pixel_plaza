@@ -15,6 +15,10 @@ onMounted(() => {
         height: 480,
         backgroundColor: '#0f172a',
         pixelArt: true,
+        physics: {
+            default: 'arcade',
+            arcade: {gravity: {y:0}} // el 0 es para la vista zenital
+        },
         parent: contenidor.value,
         scene: [MapScene]
     });
